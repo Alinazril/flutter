@@ -18,7 +18,7 @@ class BelajarRowColumn extends StatelessWidget {
           ),
           Container(
             child: Text('ini column 2'),
-            color: const Color.fromARGB(255, 225, 244, 54),
+            color: Color.fromARGB(255, 81, 88, 18),
           ),
           ],
          ),
