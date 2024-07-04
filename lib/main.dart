@@ -6,6 +6,11 @@ import 'package:myapp/row_colum/row_widget.dart';
 import 'package:myapp/row_colum/row_column_widget.dart';
 import 'package:myapp/row_colum/latihan.dart';
 import 'package:myapp/row_colum/latihan_dua.dart';
+import 'package:myapp/listview/list_basic.dart';
+import 'package:myapp/listview/list_builder.dart';
+import 'package:myapp/listview/list_separated.dart';
+import 'package:myapp/listview/list_example.dart';
+
 
 
 void main(){
@@ -22,7 +27,7 @@ class MyApp extends StatelessWidget{
           centerTitle: true,
           title: Text("Belajar Flutter"),
         ),
-        body: TugasSimpel(),
+        body: ListExample(),
         ),
     );
   }
